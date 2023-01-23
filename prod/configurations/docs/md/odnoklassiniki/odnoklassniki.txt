@@ -1,0 +1,35 @@
+## How to get Odnoklassniki Public key & Secret Key?
+
+### Step 1
+Go to [https://ok.ru/](https://ok.ru/) and login using your Odnoklassniki Account (as shown in the below Screenshot). To create an Odnoklassniki app open Developer account from [here](https://ok.ru/devaccess) and make sure you are logged in into your developer Account.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/odnoklassiniki/images/step1.png)
+
+### Step 2
+After obtaining developer rights you will get a link to add apps or external sites. Go to your account **Settings** from the top right corner and open **Games** and select the **My downloads** button on top as shown in the below screenshot.
+.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/odnoklassiniki/images/step2.png)
+
+### Step 3
+ Now, click on **Add app** Button as shown below.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/odnoklassiniki/images/step3.png)
+
+### Step 4
+Fill the required information, and select Application Type as Web, HTML and External (As shown in the image below). You can retrieve the LoginRadius Server IPs [here](http://support.loginradius.com/hc/en-us/articles/207321953-What-are-the-IP-addresses-of-LoginRadius-services-). 
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/odnoklassiniki/images/step4.png)
+
+### Step 5
+Select **OAuth** and **Web** or **Mobile** accordingly by clicking on Добавление платформы button as shown in the previous image.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/odnoklassiniki/images/step5.png)
+
+### Step 6
+Under **App link**, enter the following: <br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>. under **List of permitted redirect_uri** , enter the follwoing: <br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Under **Callback link**, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span><br> Make sure you fill out all other mandatory fields and click on the **Save** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/odnoklassiniki/images/step6.png)
+
+### Step 7
+If you did everything right, you will soon get a set of keys and an app ID on the registered Email address set in your Odnoklassniki account.

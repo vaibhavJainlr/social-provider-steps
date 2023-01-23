@@ -1,0 +1,49 @@
+## How to get Line Channel ID & Channel Secret?
+
+### Step 1
+Go to the [channel console](https://developers.line.biz/en/?status=success) and click on **log in to console** and login into your business account.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step1.png)
+
+
+### Step 2
+Select **create new provider**, enter provider name and click on **create**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step2.png)
+
+### Step 3
+Under **Channels**, click on **Create a LINE Login Channel**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step3.png)
+
+
+### Step 4
+Enter all the required fields.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step4.png)
+
+
+### Step 5
+Select **App types** as **Web app**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step5.png)
+
+### Step 6 
+After entering all the fields check the **LINE Developers Agreement** and click on **Create**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step6.png)
+
+### Step 7 
+Navigate to the **LINE Login** tab and in the **Callback URL**, enter <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#:443/socialauth/validate.sauth**</span> and click on **Update**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step7.png)
+
+### Step 8 
+Click on **Developing** as shown in the below screen and select **Publish**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step8.png)
+
+### Step 9
+Navigate to the **Basic Settings** tab and Copy **Channel ID**. You can find the **Channel Secret** under same settings and paste these credentials into the corresponding fields on the left-hand side of this guide. 
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/line/images/step9.png)

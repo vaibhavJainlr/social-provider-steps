@@ -1,0 +1,43 @@
+### Step 1
+
+ Go to the [Google API Console](https://console.developers.google.com). Login with your Google account. Then click on **Select a Project** and create a **New Project**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step1.png)
+
+
+
+### Step 2 
+
+Enter the project name and click on **create** button.
+ ![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step2.png)
+
+### Step 3.
+
+Click on **OAuth Consent Screen** and select the user type as per your requirement and click on **create**.
+
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step3.png)
+
+### Step 4.
+
+Fill in the required fields. Once complete, click **Save and Continue** and fill all the other required details.
+
+ 
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step4.png)
+
+### Step 5
+
+Under **API & services**, select Credentials and then Create Credentials and select **OAuth Client ID**. 
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step5.png)
+
+### Step 6 
+
+Under Application Type, select **Web Application**. Enter <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span> (copy and paste this highlighted URL) in Authorized Javascript Orgins and enter <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> in Authorized Redirect URI. Once complete, click on **Create**. 
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step6.png)
+
+### Step 7 
+
+Copy the Google generated **Client ID** and **Secret** and paste them into the corresponding fields on the left-hand side of this guide. 
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/google/images/Step7.png)

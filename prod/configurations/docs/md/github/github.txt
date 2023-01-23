@@ -1,0 +1,20 @@
+### Step 1
+Go to the [Developers](https://github.com/settings/applications/) section of GitHub and login using your GitHub credentials. Select **Developer settings** from the right hand side panel. 
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/github/images/step1.png)
+
+### Step 2
+Select **OAuth Apps** or **Github Apps** based on your requirements and Click on **New Github App** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/github/images/step2.png)
+
+**Note:** Webhook Configuration is required for **Github Apps**. For the difference between **Oauth** and **Github** Apps, you can refer to this [document](https://developer.github.com/apps/differences-between-apps).
+
+### Step 3
+Under **Homepage URL**, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>. Under **Authorization Callback URL**, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>.Fill out the rest of the required fields and click on the **Register Application** button when finished.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/github/images/step3.png)
+
+### Step 4
+Copy the generated Client ID and click on the Generate a new Client Secret option and generate the secret, then copy and paste the secret into the corresponding fields on the left-hand side of this app configuration guide.
+![](//user-account.lrcontent.com/prod/configurations/docs/md/github/images/step4.png)

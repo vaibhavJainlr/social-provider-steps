@@ -1,0 +1,30 @@
+stages:
+  - deploy
+
+
+# --------------------------- DEPLOYMENT STARTS ----------------------- #
+
+# Deployment stage anchors
+.deploy_template: &deploy_template
+  image: "python:latest"
+  stage: deploy  
+  tags:
+    - gitlab-org-docker
+  before_script:
+    - pip install awscli # Install the SDK
+    - export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+    - export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+
+
+# Deploy Stages      
+deploy_prod:
+  <<: *deploy_template 
+  script:
+    -  aws s3 sync --delete prod s3://${AWS_BUCKET_NAME}/prod --acl public-read
+    -  aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+  environment:
+    name: prod
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+      when: manual
+# --------------------------- DEPLOYMENT ENDS ----------------------- #

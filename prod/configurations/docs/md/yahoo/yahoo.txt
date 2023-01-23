@@ -1,0 +1,25 @@
+##How to get Yahoo Consumer Key & Consumer Secret?
+
+###Step 1
+
+Go to the [Developer](https://developer.yahoo.com/apps) section of Yahoo. You'll be required to log in.<br>After logging in, accept Yahoo's terms of use(if it is a new dev account). Then, click on "Create an App".
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/yahoo/images/step1.png)
+
+###Step 2
+
+Enter the **Application  Name** and other details. Under "Home Page URL", input the following domain <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>. 
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/yahoo/images/step2.png)
+
+###Step 3
+
+Under the **Redirect URI(s)** enter <span class="hidden-input copyKey" readonly >#protocol#://#sitename#:/socialauth/validate.sauth</span><br> and then copy and add Consumer Key and Secret to your LoginRadius account by entering each into the fields on the left hand side of this guide.<br><br>**Note**: You will need to repeat this step after making any changes to the app as this will generate a new Consumer Key.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/yahoo/images/step3.png)
+
+###Step 4
+
+In the Below **API Permissions** select **Relationships (Social Directory)** and check the **Read Public** option. Also, select the **OpenID Connect Permissions** and check **Profile** and **Email** option. You can also select any additional permissions that your app requires and accept the terms of use. When complete, click on "Create App".
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/yahoo/images/step4.png)

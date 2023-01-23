@@ -1,0 +1,43 @@
+### Step 1
+
+Go to [Developers](https://apps.dev.microsoft.com/?mkt=en-us#/appList) section of Live and login with your Live ID.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step1.png)
+
+### Step 2
+
+Click on **Add an app in the Azure portal**
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step2.png)
+
+### Step 3
+
+Enter **Application name** and click on **Register an Application**
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step3.png)
+
+### Step 4
+
+In platform select **Web** and in the Redirect URL, enter this: <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span><br>.
+From the **Supported account types** option, select **Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)** and click on **Register** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step4.png)
+
+### Step 5
+
+Copy **Application Id** and add it to LoginRadius dashboard.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step5.png)
+
+### Step 6
+
+Click on **Certificates & Secrets**, add a **New Client Secret** and copy the generated password and save it in the **Password** in the Live settings in LoginRadius dashboard.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step6.png)
+
+### Step 7
+
+Now go to the **API Permissions** and click on the **Grant admin consent for <AppName>**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/live/images/step7.png)

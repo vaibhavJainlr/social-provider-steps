@@ -1,0 +1,30 @@
+##How to get Pinterest App ID & App Secret?
+
+###Step 1
+Go to [https://developers.pinterest.com/apps/](https://developers.pinterest.com/apps/) and login with your Pinterest account. Accept the terms conditions and click on the **Create app** button
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/pinterest/images/step-1.png)
+
+###Step 2
+Enter the Name and Description for the app, and click on the **Create** button
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/pinterest/images/step-2.png)
+
+###Step 3
+Scroll down to the App detail page, Enter the following in **Site URL**: <span class="hidden-input copyKey" readonly >#protocol#://#sitename#</span> <br>
+Now enter the following in **Redirect URIs**:
+<span class="hidden-input copyKey" readonly >#protocol#://#sitename#:443/socialauth/validate.sauth</span>.<br> Save the changes.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/pinterest/images/step-3.png)
+
+###Step 4
+Scroll up to the App detail page, Click on the **Show** button to get the App Secret.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/pinterest/images/step-4.png)
+
+###Step 5
+
+Copy the App ID and App Secret into the corresponding fields in this app configuration guide.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/pinterest/images/step-5.png)
+

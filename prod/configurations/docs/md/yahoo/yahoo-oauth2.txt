@@ -1,0 +1,43 @@
+﻿##How to get Yahoo Consumer Key & Consumer Secret?
+
+###Step1
+
+Go to [Developer](http://developer.yahoo.com/) section of Yahoo. CLick on **My Apps** menu and select **YDN Apps** and you’ll be required to log in.
+
+![](//account.lrcontent.com/dev/docs/md/yahoo/images/step1.png)
+
+###Step2
+
+After logging in, accept Yahoo’s terms of use(if it is a new dev account). Then, click on **"Create an App"**.
+
+![](//account.lrcontent.com/dev/docs/md/yahoo/images/step2.png)
+
+###Step3
+
+Enter the App Name and other details. Select **"Web Application"** under Application Type menu and include for "Home Page URL" and "Callback Domain" the following domain <span class='highlighted-text'>https://impl.hub.loginradius.com</span>
+
+![](//account.lrcontent.com/dev/docs/md/yahoo/images/step3.png)
+
+###Step4
+
+Under the **API Permissions** sectioon select **Profile** and under **Profile** section select **Read Public** permission. 
+
+After setting permissions, click **Create App**.
+
+![](//account.lrcontent.com/dev/docs/md/yahoo/images/step4.png)
+
+###Step5
+
+Yahoo will generate Consumer Key and Secret for your App. Now copy and add Consumer Key and Secret to your LoginRadius account.
+
+**Note** :Any changes made to the app will generate a new Consumer Key.
+
+![](//account.lrcontent.com/dev/docs/md/yahoo/images/step5.png)
+
+###Step6
+1. Verify your domain <span class='highlighted-text'>**impl.hub.loginradius.com**</span>. To do so, go to https://developer.apps.yahoo.com/manage and hit **Verify** button next to your app.
+2. This will open up a pop-up, in which you get a Yahoo verification **File Name** in point-1, copy this file name and paste to the box "Yahoo Verification File Name" on the left side here and Hit **Save** button
+3. Hit **Verify Domain** button and close the pop-up after verification.
+----------
+
+![](//account.lrcontent.com/dev/docs/md/yahoo/images/step6.png)

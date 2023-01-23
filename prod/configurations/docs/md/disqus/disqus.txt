@@ -1,0 +1,21 @@
+## How to get Disqus API KEY and API Secret?
+
+### Step 1
+Go to [http://disqus.com/api/applications/register/](http://disqus.com/api/applications/register/) and log in with your Disqus credentials. Fill out all the required fields. Under **Website** enter the following <span class="hidden-input copyKey" readonly>**#protocol#://#sitename#**</span> <br> After that hit the **Register my Application** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/disqus/images/step1.png)
+
+### Step 2
+In **Callback URL**, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Once you have done this, click on **Save Changes** button
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/disqus/images/step2.png)
+
+### Step 3
+Click on the Details tab
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/disqus/images/step3.png)
+
+### Step 4
+Enter the API Key and API Secret into the corresponding fields on the left hand side of the screen.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/disqus/images/step4.png)

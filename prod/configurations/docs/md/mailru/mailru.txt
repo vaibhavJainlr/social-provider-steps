@@ -1,0 +1,35 @@
+## How to get Mail.ru ID, Private Key & Secret Key?
+
+### Step 1
+Navigate to [http://api.mail.ru/](http://api.mail.ru/) and click on **Приложения** (Apps).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step1.png)
+
+### Step 2
+Click on **Создать приложение** (Create the application) you will need to have a verified [mail.ru](http://mail.ru/) account to proceed.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step2.png)
+
+### Step 3
+Accept the terms and conditions and click **Продолжить** (Proceed).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step3.png)
+
+### Step 4
+Include your app name in **Название приложения** (Application Name) and select iFrame for **Тип приложения** (Type of Application) and click on **Создать приложение** (Create the application).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step4.png)
+
+### Step 5
+Click on **управление** (Management).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step5.png)
+
+### Step 6
+Click on **Настройки** iFrame( iFrame Settings).<br><br>Include the URLs retrieved from your LoginRadius account for **"URL"** and **"Адрес страницы receiver.html**(The address receiver.html)" these should take the format of:<br>URL: <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span><br>Адрес страницы receiver.html(The address receiver.html): <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span><br>Click on Сохранить (Save).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step6.png)
+
+### Step 7
+Navigate to **Базовые настройки** (Basic settings) and copy and paste to your Loginradius dashboard the following:<br>ID<br>Приватный ключ (Private key)<br>Секретный ключ (Secret key).
+![](//user-account.lrcontent.com/prod/configurations/docs/md/mailru/images/step7.png)

@@ -1,0 +1,36 @@
+##How to get Renren API Key & Secret Key?
+
+###Step 1
+Go to [http://dev.renren.com/app](http://dev.renren.com/app) .<br>Click on the button located in the top right corner (as shown in the image below).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step1.png)
+
+###Step 2
+Login to your Renren account.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step2.png)
+
+###Step 3
+In both drop-down menus, please select the second option from the bottom. <br>Enter your description and <span class="hidden-input copyKey" readonly >**#sitename#**</span> in root domain.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step3.png)
+
+###Step 4
+Upload your 16x16, 48x48, 75x75 and 100x100 icons and click the **save** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step4.png)
+
+###Step 5
+Renren will generate your API Key and Secret, which you will need to copy and paste these into the relevant fields in this LoginRadius app configuration guide.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step5.png)
+
+###Step 6
+Click on the “+” icon.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step6.png)
+
+###Step 7
+Enter valid Canvas Page Name and Copy the "Canvas URL" into "Wap 应用访问URL " and <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> into callback address and click **save** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/renren/images/step7.png)

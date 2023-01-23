@@ -1,0 +1,31 @@
+## How to get Kaixin API Key & Secret Key?
+
+### Step 1
+Go to [http://open.kaixin001.com/](http://open.kaixin001.com/) and login using your Kaixin credentials. Click on the **"My Application"** menu.  If you are not a registered developer, you will need to register yourself by filling in the required information and verifying your email.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/kaixin/images/step1.png)
+
+### Step 2
+In order to create the application, Click on the **Create a new application** button at the top of the screen. If you are a newly registered user, you can click on the **Immediately Create Application** button after verifying the email.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/kaixin/images/step2.png)
+
+### Step 3
+This will open a pop-up. Click on the **"Connection website"** option to create a new app
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/kaixin/images/step3.png)
+
+### Step 4
+Enter the application name and check the **"Agree to terms and conditions"** checkbox.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/kaixin/images/step4.png)
+
+### Step 5
+This will create the new app and generate the associated API key and Secret Key. Click on **Edit application information** link.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/kaixin/images/step5.png)
+
+### Step 7
+Under **"login page address"**, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Under **"webpage address"**, Enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>.  Enter the remainder of the required application information. Submit for review by clicking on the **Submit for Review** button. Please note, it might take a few days for the Kaixin team to approve your application. You will be notified by email.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/kaixin/images/step6.png)

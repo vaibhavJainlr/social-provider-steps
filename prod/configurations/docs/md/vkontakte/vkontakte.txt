@@ -1,0 +1,38 @@
+### Step 1
+Go to the [**Developers**](https://vk.com/dev) section of Vkontakte and click on **My Apps**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step1.png)
+
+### Step 2
+Next, you will need to **login**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step2.png)
+
+### Step 3
+Under **My Apps** tab click on **Create app** as shown in the below screen.
+
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step3.png)
+
+### Step 4
+After logging in, fill out the appropriate title for your app, and select **Website** from the availble platforms. 
+Under **Website Address**, enter the following:  **https://internal-sitename.hub.loginradius.com:443/socialauth/validate.sauth**.
+Under **BaseDomain**, enter the following: internal-sitename.hub.loginradius.com. Once you have done this, click on the **Connect Website**.
+
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step4.png)
+
+### Step 5
+You will see a pop-up for verification. Enter your mobile number and click on **call**. You will receive a call on the registered phone number.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step5.png)
+
+### Step 6
+Enter the last four digits of phone number and click on **Confirm**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step6.png)
+
+### Step 7
+Click on the **Settings** tab, VKontakte generates an **Application ID** and **Secure Key**. Click on **Save** and add them to the corresponding fields in the left hand corner of this app configuration guide.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/vkontakte/images/step7.png)

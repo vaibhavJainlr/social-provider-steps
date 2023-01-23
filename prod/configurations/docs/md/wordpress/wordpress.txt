@@ -1,0 +1,35 @@
+##How to get Twitter Consumer Key & Consumer Secret?
+
+### Step 1
+Go to https://developer.wordpress.com/.
+Click on the **My Apps**
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/wordpress/images/step1.png)
+
+
+### Step 2
+Log in to your Wordpress Account if not already logged in.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/wordpress/images/step2.png)
+
+### Step 3
+Click on the **Create New Application**
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/wordpress/images/step3.png)
+
+### Step 4
+
+Enter the Application Name and Description. Enter <br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span> in Website URL field and <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> in Redirect URL field. Select Web in type and Fill the Security Question and hit Create Button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/wordpress/images/step4.png)
+
+
+### Step 5
+Go to **My Application** and Click on your Wordpress Application.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/wordpress/images/step5.png)
+
+### Step 6
+Copy and paste the **Client ID** and **Secret** respectively to "WordPress Client ID and WordPress Client Secret" fields on the left-hand side box.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/wordpress/images/step6.png)

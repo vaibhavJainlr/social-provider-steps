@@ -1,0 +1,48 @@
+## How to get Instagram Client ID and Client Secret?
+
+### Step 1
+Go to the [Developer Console](http://instagram.com/developer/) link and **login** with your Instagram credentials.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step1.png)
+
+### Step 2
+Click on **Manage Clients**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step2.png)
+
+### Step 3
+Sign Up for **Developer Signup** if you haven't.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step3.png)
+
+### Step 4
+Click on **Register Your Application**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step4.png)
+
+### Step 5
+Click on **Register a New Client**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step5.png)
+
+### Step 6
+Under **Website URL** , enter the following: <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>. Under **Valid Redirect URIs**, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Fill out all of the required fields and hit **Register** when finished.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step6.png)
+
+### Step 7
+Click on **Manage** button next to the newly added App.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step7.png)
+
+### Step 8
+Insert the generated **Client ID** and **Client Secret** into the corresponding fields in the left-hand side of this configuration app.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step8.png)
+
+### Step 9
+
+Click the **Permission** button in the manage section of the app, then click on the **Permissions** tab. From here, you can submit your app for review by clicking on the **Start a Submission** button. Once your app has been successfully reviewed, you can set it live by clicking on the **Go Live* button.
+**Note:** Company Name, Contact Email and Privacy Policy URL are required to start a submission. Make sure to update these details in the **Details* section.Company Name, Contact Email and Privacy Policy URL are required to start a submission.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step9.png)

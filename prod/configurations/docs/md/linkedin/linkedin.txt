@@ -1,0 +1,37 @@
+### Step 1
+Go to the [Developers](http://developer.linkedin.com/) section of LinkedIn. Click on the **Sign In**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step1.png)
+
+### Step 2
+Enter your login credentials and click **Sign In**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step2.png)
+
+### Step 3
+After logging in, click on **Create App**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step3.png)
+
+### Step 4
+Fill out all the required fields. After that, click on **Create App** button.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step4.png)
+
+
+
+### Step 5
+ Navigate to the **Auth** tab and enter <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> under **Authorized redirect URLs for your app**.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step5.png)
+
+
+### Step 6
+Navigate to the **Products** tab and **Select** Sign In with LinkedIn.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step6.png)
+
+### Step 7
+Navigate back to the **Auth** tab, enter **Client ID** and **Client secret** into the corresponding fields on the left-hand side of this app configuration guide.
+
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step7.png)

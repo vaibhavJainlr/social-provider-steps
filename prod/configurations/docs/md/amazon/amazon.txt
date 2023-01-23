@@ -1,0 +1,37 @@
+## How to get Amazon Client ID and Client Secret?
+
+### Step 1
+First go to [Amazon Developers Dashboard](https://developer.amazon.com/dashboard) and Login with your Amazon Account. Click on **Login with Amazon** as shown in the screen below. 
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/amazon/images/step1.png)
+
+### Step 2
+Click on **Create a New Security Profile** as shown in the below screen.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/amazon/images/step2.png)
+
+### Step 3
+Enter all the required details including the **Consent Privacy Notice URL** and Logo Image (optional) and click on **Save**. <br>**Note**: Under **Consent Privacy Notice URL**, you will need to enter the URL of your application's privacy policy. This is displayed on the consent screen the first time the user logs into your website or mobile app.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/amazon/images/step3.png)
+
+### Step 4
+
+Navigate back to the **Login with Amazon** page and click on the **Web Settings** as shown in the below screen.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/amazon/images/step4.png)
+
+### Step 5
+In the **Allowed Origins** enter the following: <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span> and in the **Allowed Return URLs** enter the following: <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Click on **Save** to save your settings.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/amazon/images/step5.png)
+
+
+### Step 6
+
+Click on the **Show secret** button. <br>Copy and paste the Client Id and Client Secret into the corresponding fields in the left hand corner of this app configuration guide. 
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/amazon/images/step6.png)

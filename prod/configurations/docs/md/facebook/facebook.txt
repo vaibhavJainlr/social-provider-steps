@@ -1,0 +1,76 @@
+##How to get Facebook App ID & App Secret?
+
+###Step 1
+Go to [Facebook Developer](https://developers.facebook.com/) link and login using your Facebook credentials.<br>**NOTE**: Please do not login using a business account as Facebook will not allow you to create an app if you do so.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step1.png)
+
+###Step 2
+Select the **My Apps** as displayed in the below screen.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step2.png)
+
+###Step 3
+
+Click on **Create App** as displayed in the below screen.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step3.png)
+
+###Step 4
+Select **Consumer** from the given multiple options for app type
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step4.png)
+
+
+###Step 5
+Input **display name** and **contact email**. Once you have done so, click on **Create App**
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step5.png)
+
+###Step 6
+
+In the security check, Complete the security steps and click on *submit* button.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step6.png)
+
+
+###Step 7
+Once you land on the App dashboard, Select **Facebook Login** and Click **Set Up**.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step7.png)
+
+
+###Step 8
+Click on **Settings** in the side bar under Facebook Login. Turn on Client OAuth Login. Turn on Web OAuth Login.
+Put <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> on "Valid OAuth redirect URIs".
+Click on save button.
+
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step8.png)
+
+
+###Step 9
+
+Click on **Basic** under settings in the side bar.
+Under **App Domains** include the following: <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>
+Enter all the required details.
+Change the status of the app from **Development** to **Live** from top-right corner.
+Click on **Save Changes** button.
+<br>
+**Note:** In order to change the App's status you need to add valid **Privacy Policy URL** and **User data deletion URL**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step9.png)
+
+
+###Step 10
+
+Copy **App ID** and **App Secret** to your LoginRadius dashboard.
+Click on **Save button**
+<br>
+**Note:** If you are looking to grab more than basic profile data points or are asking for additional permissions from your users, your app will need to be approved by Facebook. For our guide to getting your Facebook app approved, please refer to this [document](https://docs.loginradius.com/development/social-network/facebook-app-review)
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/facebook/images/step10.png)

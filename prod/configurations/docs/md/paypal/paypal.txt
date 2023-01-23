@@ -1,0 +1,37 @@
+## How to get Paypal Client ID & Client Secret?
+
+### Step 1
+Go to [Developer Portal](https://developer.paypal.com/developer/applications) and login with your developer Paypal Account<br>Click on the **Create Application** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step1.png)
+
+### Step 2
+Under **My Apps and Credentials**, click on **Create App**
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step2.png)
+
+### Step 3
+Input **App Name** and click on **Create App**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step3.png)
+
+### Step 4
+Click on **Show** under API Credentials. Copy and paste the Client ID and Secret into the corresponding fields on the left hand side of this app configuration guide.  
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step4.png)
+
+### Step 5
+Under App Settings, click on **Show** for the Return URL. In the **Return URL** field, enter the following:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Click the **+** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step5.png)
+
+### Step 6
+Select **Log in with PayPal** and cick on **Advanced options** as shown.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step6.png)
+
+### Step 7
+Select the options you would like to enable as per your requirement and click on **save** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/paypal/images/step7.png)
+

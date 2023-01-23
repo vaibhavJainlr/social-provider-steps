@@ -1,0 +1,24 @@
+##How to get Salesforce Consumer Key & Consumer Secret?
+
+###Step 1
+Go to [Salesforce](https://login.salesforce.com/) and and login with your credentials.
+
+###Step 2
+Click on the **Setup** icon in the upper right corner and click on **Setup** from the drop down menu. 
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/salesforce/images/step2.png)
+
+###Step 3
+Type ‘app’ in the ‘Quick Find’ search box and click on **App Manager**. After the App Manager view loads, click on **New Connected App**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/salesforce/images/step3.png)
+
+###Step 4
+Fill out the mandatory fields: Connected App Name, API Name, and Contact Email. Enable Oauth by clicking on the ‘Enable OAuth Settings’ checkbox. Enter the following in the ‘Callback URL’ field: <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>. Add the following OAuth scopes: Full access (full), Access and manage your data (api), Access your basic information (id, profile, email, address, phone), as shown on the screenshot below. Next, click on the **Save** button at the bottom on the form. Consider the text shown: '*Allow from 2-10 minutes for your changes to take effect on the server before using the connected app.*' Then, click on **Continue** button.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/salesforce/images/step4.png)
+
+###Step 5
+You will be taken to the *View* page for the app. Copy the **Consumer Key** and **Consumer Secret** and paste them on the form to the left of this configuration guide.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/salesforce/images/step5.png)

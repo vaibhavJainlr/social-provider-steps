@@ -1,0 +1,69 @@
+##How to get Facebook App ID & App Secret?
+
+###Step1
+Go to [Facebook Developer](https://developers.facebook.com/) link and log in with your facebook credentials.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v2-fb-01v1.png)
+
+**NOTE**: Please do not use business account because you can not create facebook app using business account.
+
+###Step 2
+Click on **Apps** and Choose **Create a New App** option.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v2-fb-02v1.png)
+
+###Step 3
+Select website platform.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-03.png)
+
+###Step4
+Click on Skip and Create App Id
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-04.png)
+
+
+###Step5
+A pop-up box will appear, enter **Display Name** and Select **Category** for app and hit **Create App** button.
+**Tip**: Choose 'Display Name' as name of your website or your company name.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-05.png)
+
+###Step 6
+Select **Settings** menu from left sidebar then Click on **+Add Platform**.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-06.png)
+
+
+###Step 7
+Select **website** platform.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-07.png)
+
+###Step 8
+Enter this in **App Domains** : impl.hub.loginradius.com
+Enter this in**Site URL** : https://impl.hub.loginradius.com
+after that click on **Save Changes** button.
+
+
+###Step 9
+Select **Status & Review** menu at left sidebar and change App status as highlighted.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-09.png)
+
+
+###Step 10
+A pop-up box will appear for confirmation. Hit Confirm button in the popup.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-10.png)
+
+
+###Step 11
+Select **Dashboard** menu from left sidebar. Add **API Key** and **Secret Key** to LoginRadius.
+
+![](https://cdn.loginradius.com/ua/v12/images/HelpStepImage/v3-fb-11.png)
+
+###Step 12
+You need to get your Facebook app approved to get access to data and features beyond the public profile.
+
+In order to configure your Facebook app to be successfully approved, refer support document [here](http://support.loginradius.com/hc/en-us/articles/200912879-How-do-I-submit-my-Facebook-app-for-review)

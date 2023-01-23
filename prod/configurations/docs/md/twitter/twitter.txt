@@ -1,0 +1,36 @@
+##How to get Twitter Consumer Key & Consumer Secret?
+
+###Step 1
+Go to the [Twitter Developers](https://apps.twitter.com/) section and login with your Twitter credentials.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-1.png)
+
+
+###Step 2
+Click on **Create App**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-2.png)
+
+###Step 3
+Name your **Twitter** app and click **Complete**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-3.png)
+
+###Step 4
+Keep the displayed API Key and API Secret with you to be used in last step.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-4.png)
+
+###Step 5
+Click on **Edit** Authentication Settings.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-5.png)
+
+###Step 6
+Enable **3-Legged OAuth** and the **Request Email address from user** options. Fill out all the required fields. Under **Website**, enter:<br> <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span>.Under **Callback URL**, enter: <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span>.Once you have done this, click on **Save**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-6.png)
+
+###Step 7
+
+Use the **API Key** and **API Secret** save in Step 4 for your Twitter app configuration.

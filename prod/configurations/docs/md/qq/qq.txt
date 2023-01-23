@@ -1,0 +1,46 @@
+##How to get QQ Consumer Key & Consumer Secret?
+
+###Step 1
+Go to [http://connect.qq.com/](http://connect.qq.com/) and click on **Management Center**
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step1.png)
+
+###Step 2
+Login using your QQ account credentials (If you are a new user, you have to complete your developer account settings).
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step2.png)
+
+###Step 3
+Click on **Add a site** to create the app
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step3.png)
+
+###Step 4
+If you are not already a registered developer, you will need to register yourself by filling in the required information.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step4.png)
+
+###Step 5
+Click on the highlighted box.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step5.png)
+
+###Step 6
+Fill the required information about App.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step6.png)
+
+###Step 7
+Fill your **app name** in name and <span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span> in website url.<br>This will prompt you to verify your website. Copy and paste the verification code in provider settings page for QQ under your LoginRadius Account and click on **save**.<br>Click on verification link. This will open a small window. click on Verification button to complete the verification.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step7.png)
+
+###Step 8
+Copy and paste <span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> in **Callback URL** (Your users will be redirected to this page after login. Callback URL shall be inserted without http://). Click on the button (Determine) at the bottom.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step8.png)
+
+###Step 9
+QQ will provide generate an App ID and Key for you app. Copy the **App ID** and **Key** and paste them into the corresponding fields on the left hand side of this QQ configuration guide. Click **Save**.
+
+![](//user-account.lrcontent.com/prod/configurations/docs/md/qq/images/step9.png)
