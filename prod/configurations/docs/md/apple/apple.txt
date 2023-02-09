@@ -6,7 +6,7 @@
 
 ### Step 2
 
-After login, you need to **Create Identifiers** and for this please click **Certificates, Identifiers &amp; Profiles** section from the Apple developer dashboard -&gt; Side Panel or you can click this via the quick link.
+After login, you need to **Create Identifiers** and for this please click **Certificates, Identifiers &amp; Profiles** section from the Apple developer dashboard -&gt; Side Panel or you can click this via the quick link: https://developer.apple.com/account/ios/certificate/
 
 ![enter image description here](https://user-account.lrcontent.com/prod/configurations/docs/md/apple/images/step2.png "")
 
