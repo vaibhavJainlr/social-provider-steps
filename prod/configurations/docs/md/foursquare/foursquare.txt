@@ -2,40 +2,39 @@
 
 ### Step 1
 
-Go to the [Developers](https://developer.foursquare.com/) section of Foursquare and click on **Login** at the top of the page.
+Go to the [Developers](https://developer.foursquare.com/) section of Foursquare and click on **Sign Up / Log In** at the top-right of the interface.
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step1.png)
 
 ### Step 2
 
-Now click on **Login** option under **Places and Pilgrim SDK**
+Now click on **Log In** option under **Places API/Developer Console**.
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step2.png)
 
 ### Step 3
 
-Log into Foursquare.
+Log In to Foursquare.
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step3.png)
 
 ### Step 4
-Click on **“Create a new App“**. 
+Click on **Create New Project**. 
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step4.png)
 
 ### Step 5
-  Select the Organization and enter the project name, then click on **Create** button.
+Enter the Project Name, then click on the **Create** button.
 
- ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step5.png)
+![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step5.png)
 
 ### Step 6
-Enter the <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span> in the **Project URL**.Enter the following in the **Redirect URI(s)** field: <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> and then add **Privacy policy URL** and Click on **Save Changes** button at the top of the form. 
+Enter the <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename#**</span> in the **Project URL** and <br><span class="hidden-input copyKey" readonly >**#protocol#://#sitename##port#/socialauth/validate.sauth**</span> in **Redirect URL** and then add the **Privacy Policy URL** followed by clicking on the **Save Changes** button.
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step6.png)
 
 ### Step 7
-Copy the generated **Client ID** and **Client Secret** for this app and paste them into the corresponding fields on the left-hand side of this Configuration guide.
-
+Copy the generated **Client ID** and **Client Secret** for this app and paste them into the corresponding fields on the left-hand side of this configuration guide.
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/foursquare/images/step7.png)
 
