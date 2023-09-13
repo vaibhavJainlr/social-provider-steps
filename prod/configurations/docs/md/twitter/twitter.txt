@@ -34,5 +34,3 @@ Select **Read** under **App permissions** and enable the **Request email from us
 ###Step 7
 Use the **API Key** and **API Secret** you saved in **Step 4** for your Twitter app configuration.
 
-![](//user-account.lrcontent.com/prod/configurations/docs/md/twitter/images/step-7.png)
-
