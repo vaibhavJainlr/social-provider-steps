@@ -20,7 +20,7 @@ stages:
 deploy_prod:
   <<: *deploy_template 
   script:
-    -  aws s3 sync --delete prod s3://${AWS_BUCKET_NAME}/prod --acl public-read
+    -  aws s3 sync --delete prod s3://${AWS_BUCKET_NAME}/prod
     -  aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
   environment:
     name: prod
