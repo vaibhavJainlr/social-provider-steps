@@ -27,7 +27,7 @@ Fill out all the required fields. After that, click on **Create App** button.
 
 
 ### Step 6
-Navigate to the **Products** tab and **Select** Sign In with LinkedIn.
+Navigate to the **Products** tab and **Select** Sign In with LinkedIn using openid connect.
 
 ![](https://user-account.lrcontent.com/prod/configurations/docs/md/linkedin/images/step6.png)
 
