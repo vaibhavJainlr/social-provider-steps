@@ -8,7 +8,7 @@ Go to the [Developer Console](http://instagram.com/developer/) link and **login*
 ### Step 2
 Click on **Manage Clients**.
 
-![](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step2.png)
+![Manage Clients](//user-account.lrcontent.com/prod/configurations/docs/md/instagram/images/step2.png)
 
 ### Step 3
 Sign Up for **Developer Signup** if you haven't.
